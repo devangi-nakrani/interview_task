@@ -54,3 +54,11 @@ php artisan serve
 - **Admin**: Can create short URLs and invite others to their own company. Can see only company links.
 - **Member**: Can create short URLs. Can see only their own links.
 - **Public Redirect**: All short URLs are publicly accessible via `/s/{code}`.
+
+---
+
+## Development Notes
+- **Logic & Design**: All core backend logic including role assignments, multi-tenant company structure, and security validations were implemented logically by myself.
+- **CSS**: ChatGPT was used to design the simple and clean UI.
+- **Troubleshooting**: During development, I faced an issue where member links were not being generated properly or restricted correctly to the owner. This issue was resolved with the help of the **Google Antigravity tool**.
+
