@@ -11,7 +11,6 @@ composer global require laravel/installer
 ```bash
 laravel new interview_task
 
-```bash
 composer install
 npm install
 ```
